@@ -1,0 +1,22 @@
+initial accuracy: 92.88%
+mora-ce-5 - 1/10 - 1000 out of 1000 successfully perturbed
+mora-ce-5 - 2/10 - 1000 out of 1000 successfully perturbed
+mora-ce-5 - 3/10 - 1000 out of 1000 successfully perturbed
+mora-ce-5 - 4/10 - 993 out of 1000 successfully perturbed
+mora-ce-5 - 5/10 - 984 out of 1000 successfully perturbed
+mora-ce-5 - 6/10 - 975 out of 1000 successfully perturbed
+mora-ce-5 - 7/10 - 974 out of 1000 successfully perturbed
+mora-ce-5 - 8/10 - 967 out of 1000 successfully perturbed
+mora-ce-5 - 9/10 - 977 out of 1000 successfully perturbed
+mora-ce-5 - 10/10 - 286 out of 288 successfully perturbed
+robust accuracy after APGD-CE-5: 1.32% (total time 84.0 s)
+mora-ce-0.0 - 1/1 - 11 out of 132 successfully perturbed
+robust accuracy after APGD-CE-0.0: 1.21% (total time 95.3 s)
+mora-ce-2.5 - 1/1 - 14 out of 121 successfully perturbed
+robust accuracy after APGD-CE-2.5: 1.07% (total time 105.7 s)
+mora-ce-7.5 - 1/1 - 16 out of 107 successfully perturbed
+robust accuracy after APGD-CE-7.5: 0.91% (total time 115.3 s)
+mora-ce-10 - 1/1 - 4 out of 91 successfully perturbed
+robust accuracy after MORA-CE-10: 0.87% (total time 124.8 s)
+max Linf perturbation: 0.01000, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.87%
