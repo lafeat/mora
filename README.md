@@ -4,6 +4,20 @@ This repository contains code
 for reproducing the results in our NeurIPS 2022 paper
 ["MORA: Improving Ensemble Robustness Evaluation with Model-Reweighing Attack"](https://openreview.net/pdf?id%253Dd_m7OKOmPiM).
 
+Please feel free to cite our paper with the following bibtex entry:
+```bibtex
+@inproceedings{mora,
+ author = {Yu, Yunrui and Gao, Xitong and Xu, Cheng-Zhong},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+ pages = {26955--26965},
+ publisher = {Curran Associates, Inc.},
+ title = {{MORA}: Improving Ensemble Robustness Evaluation with Model Reweighing Attack},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/ac895e51849bfc99ae25e054fd4c2eda-Paper-Conference.pdf},
+ volume = {35},
+ year = {2022}
+}
+```
 
 ## Dependencies
 
