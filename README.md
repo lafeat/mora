@@ -16,9 +16,9 @@ We used PyTorch 1.4.0 for all the experiments,
 and the code were tested on an NVIDIA TITAN Xp GPU.
 
 
-## Data and pre-trained models
+## Pretrained models
 
-The pre-trained models
+The pretrained models
 for the ensemble defense strategies (ADP, DVERGE, GAL)
 can be accessed
 via [this link](https://drive.google.com/drive/folders/1i96Bk_bCWXhb7afSNp1t3woNjO1kAMDH?usp=sharing).
