@@ -1,4 +1,4 @@
-name: dverge
+name: mora
 channels:
   - defaults
 dependencies:
