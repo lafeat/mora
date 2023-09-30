@@ -1,18 +1,34 @@
 # MORA
-This repository contains code for reproducing our NeurIPS 2022 submitted paper ["MORA: Improving Ensemble Robustness Evaluation
-with Model-Reweighing Attack
-"].
 
-# Dependencies
-Create the conda environment called `MORA` containing all the dependencies by running
-```
+This repository contains code
+for reproducing the results in our NeurIPS 2022 paper
+["MORA: Improving Ensemble Robustness Evaluation with Model-Reweighing Attack"](https://openreview.net/pdf?id%253Dd_m7OKOmPiM).
+
+
+## Dependencies
+
+Create the conda environment called `mora`
+containing all the dependencies by running:
+```shell
 conda env create -f environment.yml
 ```
-We were using PyTorch 1.4.0 for all the experiments. You may want to install other versions of PyTorch according to the cuda version of your computer/server.
-The code is run and tested on a single TITAN Xp GPU. Running on multiple GPUs with parallelism may need adjustments.
+We used PyTorch 1.4.0 for all the experiments,
+and the code were tested on an NVIDIA TITAN Xp GPU.
 
-# Data and pre-trained models
-The ensemble  ADP DVERGE GAL defense strategies pre-trained models can be accessed via [this link](https://drive.google.com/drive/folders/1i96Bk_bCWXhb7afSNp1t3woNjO1kAMDH?usp=sharing), The pre-trained models are stored in the folder named `checkpoints`. Download and put `checkpoints` under this repo. 
 
-# Usage
+## Data and pre-trained models
+
+The pre-trained models
+for the ensemble defense strategies (ADP, DVERGE, GAL)
+can be accessed
+via [this link](https://drive.google.com/drive/folders/1i96Bk_bCWXhb7afSNp1t3woNjO1kAMDH?usp=sharing).
+The pre-trained models are located
+in the folder named `checkpoints`.
+Download and place the checkpoints
+into a `checkpoints/` folder under this repo
+before running evaluation scripts. 
+
+
+## Usage
+
 Examples of evaluation scripts can be found in `scripts/evaluation.sh`.
