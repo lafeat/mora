@@ -2,7 +2,7 @@
 
 This repository contains code
 for reproducing the results in our NeurIPS 2022 paper
-["MORA: Improving Ensemble Robustness Evaluation with Model-Reweighing Attack"](https://openreview.net/pdf?id%253Dd_m7OKOmPiM).
+["MORA: Improving Ensemble Robustness Evaluation with Model-Reweighing Attack"](https://openreview.net/pdf?id=d_m7OKOmPiM).
 
 Please feel free to cite our paper with the following bibtex entry:
 ```bibtex
